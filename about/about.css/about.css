@@ -1,0 +1,159 @@
+main {
+  /* height: 2000px; */
+  position: relative;
+}
+
+.bg-img-1,
+.bg-img-2,
+.bg-img-3,
+.bg-img-4,
+.bg-img-5,
+.bg-img-6,
+.bg-img-7,
+.bg-img-8 {
+  position: absolute;
+}
+
+.bg-img-1,
+.bg-img-4 {
+  left: 0;
+}
+
+.bg-img-3 {
+  left: 20%;
+  top: 20%;
+}
+
+.bg-img-2,
+.bg-img-5 {
+  right: 0;
+}
+
+.bg-img-7 {
+  bottom: 0;
+  left: 0;
+}
+
+.bg-img-6,
+.bg-img-8 {
+  bottom: 0;
+  right: 0;
+}
+
+.about-block {
+  position: relative;
+  z-index: 1;
+}
+
+.link {
+  margin-top: 50px;
+}
+
+.about-block div a {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about-block h1 {
+  font-weight: 400;
+  font-size: 100px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Cormorant", serif;
+  width: 90%;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.title,
+.garanty {
+  font-weight: 400;
+  font-size: 60px;
+  font-family: "Cormorant", serif;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #43ffd2;
+  margin-top: 100px;
+  width: 80%;
+  margin-left: auto;
+}
+
+.title-desc {
+  width: 70%;
+  margin-left: auto;
+  padding: 40px 20px;
+  background-color: #00000033;
+}
+
+.title-desc p {
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.garanty-desc {
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 80%;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.order-with h2 {
+  font-weight: 400;
+  font-size: 60px;
+  font-family: "Cormorant", serif;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #43ffd2;
+  margin-top: 100px;
+  width: 70%;
+  margin-left: 20%;
+}
+
+.order-with ul {
+  width: 60%;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.order-with ul li {
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.about-flower {
+  margin-top: 150px;
+}
+
+.about-flower h2 {
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Cormorant", serif;
+}
+
+.about-flower div {
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 40px;
+  width: 50%;
+  margin: 40px auto 0;
+  padding-bottom: 200px;
+}

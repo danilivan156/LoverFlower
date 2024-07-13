@@ -1,0 +1,153 @@
+@media (max-width: 1160px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .logo a img,
+  .nav-links {
+    display: none;
+  }
+
+  .media {
+    display: block;
+  }
+  .footer-bouqet {
+    display: none;
+  }
+
+  .order-block h1 {
+    font-size: 80px;
+  }
+
+  .title-1 {
+    padding-left: 50px;
+  }
+
+  .pay-method-card {
+    font-size: 16px;
+    width: 250px;
+    height: 210px;
+    max-width: 100%;
+  }
+
+  /* .pay-method-cards {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 30px;
+  } */
+
+  .bg-img-1,
+  .bg-img-2,
+  .bg-img-3,
+  .bg-img-4,
+  .bg-img-5,
+  .bg-img-6,
+  .bg-img-7,
+  .bg-img-8,
+  .bg-img-9,
+  .bg-img-10,
+  .bg-img-11 {
+    width: 70%;
+  }
+}
+@media (max-width: 1024px) {
+  .footer-block {
+    display: none;
+  }
+
+  .footer-media {
+    display: block;
+    width: 80%;
+  }
+
+  .pay-method-card {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-block {
+    display: none;
+  }
+
+  .footer-media {
+    display: block;
+    width: 80%;
+  }
+
+  .order-block h1 {
+    font-size: 50px;
+  }
+
+  .order-attencion-desc p {
+    font-size: 14px;
+  }
+
+  .pay-method-card {
+    font-size: 14px;
+    height: 170px;
+  }
+
+  .order-cost ul {
+    gap: 5px;
+  }
+
+  .order-cost ul li,
+  .order-conditions ul li,
+  .order-add p,
+  .order-add ul li,
+  .order-add div,
+  .order-refund p,
+  span {
+    font-size: 14px;
+  }
+
+  .order-add div a {
+    font-size: 16px;
+  }
+
+  .pay-method-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 700px) {
+  .header-media-social-media {
+    display: none;
+  }
+
+  .header-media-phone {
+    display: none;
+  }
+  .footer-media {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .title-1 {
+    padding: 0;
+  }
+
+  .order-block h1 {
+    width: 100%;
+  }
+
+  .order-attencion {
+    width: 100%;
+  }
+
+  .order-attencion-desc p,
+  .order-attencion-desc p span {
+    font-size: 10px;
+  }
+
+  .order-cost {
+    width: 100%;
+    margin-left: 0;
+  }
+}

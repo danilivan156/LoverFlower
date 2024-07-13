@@ -1,0 +1,258 @@
+.feedback {
+  background-color: #0f2222;
+  position: relative;
+  z-index: 2;
+  /* height: 1000px; */
+}
+
+.feedback-bg,
+.feedback-purple,
+.feedback-green {
+  position: absolute;
+}
+
+.feedback-purple,
+.feedback-green {
+  opacity: 0.5;
+}
+
+.feedback-bg {
+  z-index: 1;
+}
+
+.feedback-block {
+  display: flex;
+  gap: 50px;
+  padding-top: 22px;
+}
+
+.feedback-title {
+  width: 55%;
+  position: relative;
+}
+
+.feedback-signature {
+  position: absolute;
+  right: 0;
+}
+
+.feedback-desc {
+  width: 40%;
+}
+
+.feedback-title h2 {
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100px;
+  color: #fff;
+  font-family: "Cormorant", serif;
+  text-transform: uppercase;
+}
+
+.feedback-title-2 {
+  text-align: right;
+}
+
+.feedback-item-1 {
+  width: 255px;
+  margin-left: auto;
+}
+
+.feedback-item-1 div {
+  width: 255px;
+  border: 1px solid #43ffd2;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.feedback-item-1 p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  width: 255px;
+}
+
+.feedback-item-2 {
+  margin-top: 30px;
+}
+
+.feedback-desc input {
+  border: 1px solid #43ffd2;
+  background-color: #0f2222;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.feedback-desc textarea {
+  border: 1px solid #43ffd2;
+  background-color: #0f2222;
+  width: 100%;
+  padding: 20px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.feedback-btn button {
+  margin-top: 20px;
+  background-color: #43ffd2;
+  padding: 16px 93px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  position: relative;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0);
+}
+
+.feedback-btn button::before,
+.feedback-btn button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.feedback-btn button::before {
+  background-color: #7d2253;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.feedback-btn button::after {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+  z-index: -2;
+  border-radius: 10px;
+}
+
+.feedback-btn button:hover,
+.feedback-btn button:focus {
+  background-color: #7d2253;
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
+.feedback-btn button:hover::before,
+.feedback-btn button:focus::before {
+  opacity: 1;
+}
+
+.feedback-btn button:active {
+  background-color: #7d2253;
+  transform: scale(0.9);
+  animation: resetColor 0.3s ease 1s forwards;
+  border-radius: 10px;
+}
+
+.feedback-btn button:active::after {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+@keyframes resetColor {
+  0% {
+    background-color: #7d2253;
+  }
+  100% {
+    background-color: #43ffd2;
+  }
+}
+
+.feedback-policy {
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 52px;
+}
+
+.feedback-policy a {
+  color: #d978ac;
+  text-decoration: none;
+}
+
+.feedback-media {
+  display: none;
+}
+
+.feedback-media h2 {
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100px;
+  color: #fff;
+  font-family: "Cormorant", serif;
+  text-transform: uppercase;
+}
+
+.feedback-media-title {
+  text-align: center;
+}
+
+.feedback-media img {
+  width: 20%;
+}
+
+.feedback-media hr {
+  width: 400px;
+  border: none;
+  border-top: 2px solid #43ffd2;
+}
+
+.feedback-media p {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  width: 60%;
+  text-align-last: left;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.feedback-media input {
+  border: 1px solid #43ffd2;
+  background-color: #0f2222;
+  width: 60%;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.feedback-media textarea {
+  border: 1px solid #43ffd2;
+  background-color: #0f2222;
+  width: 60%;
+  padding: 20px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.feedback-media-policy {
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-bottom: 30px;
+}
+
+.feedback-media-policy a {
+  color: #d978ac;
+  text-decoration: none;
+}

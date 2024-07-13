@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ul li,
+p,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+main {
+  padding-top: 93px;
+  background-color: #040a0a;
+}
+
+header {
+  background-color: #040a0a;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header-block {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 70px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+nav ul li a:hover {
+  transform: scale(1.1);
+  color: #43ffd2;
+  text-decoration-line: underline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  text-transform: uppercase;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-phone {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-phone a {
+  color: #43ffd2;
+  text-decoration: none;
+}
+
+.nav-phone a:hover {
+  text-decoration-line: underline;
+}
+
+.nav-feedback {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.background {
+  background-color: #282828;
+}
+
+.media {
+  display: none;
+}
+
+.header-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.header-media-menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-media-social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.header-media-div div {
+  width: 35px;
+  height: 3px;
+  background-color: #43ffd2;
+  margin: 6px 0;
+}
+
+.header-media-logo {
+  color: #fff;
+  font-family: "Cormorant", serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.header-media-bag {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-media-phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-media-phone a {
+  color: #43ffd2;
+  text-decoration: none;
+}
+
+.header-media-phone a:hover {
+  text-decoration-line: underline;
+}
+
+.instagram-svg {
+  fill: #43ffd2;
+}
+
+.instagram-svg:hover {
+  color: #7d2253;
+  display: inline-block;
+  animation: social-icon-animation 1s;
+}
+.whatsapp-svg:hover {
+  fill: #7d2253;
+  display: inline-block;
+  animation: social-icon-animation 1s;
+}
+.viber-svg:hover {
+  fill: #7d2253;
+  display: inline-block;
+  animation: social-icon-animation 1s;
+}
+
+.bag-svg:hover {
+  fill: #7d2253;
+  display: inline-block;
+  animation: social-icon-animation 1s;
+}
+
+@keyframes social-icon-animation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+/* Стиль основной полосы прокрутки */
+::-webkit-scrollbar {
+  width: 3px; /* Ширина полосы прокрутки */
+}
+
+/* Стиль ползунка */
+::-webkit-scrollbar-thumb {
+  background-color: #43ffd2; /* Цвет ползунка */
+  border-radius: 4px; /* Радиус скругления углов ползунка */
+}
+
+/* Стиль фона полосы прокрутки */
+::-webkit-scrollbar-track {
+  background-color: #000; /* Цвет фона полосы прокрутки */
+}

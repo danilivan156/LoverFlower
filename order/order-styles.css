@@ -1,0 +1,267 @@
+.order-block {
+  position: relative;
+  z-index: 1;
+}
+
+main {
+  position: relative;
+}
+
+.order-block div a {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 35px;
+}
+
+.order-block h1 {
+  font-weight: 400;
+  font-size: 100px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Cormorant", serif;
+}
+
+.title-1 {
+  margin-top: 60px;
+}
+
+.title-2 {
+  width: 70%;
+  text-align: center;
+}
+
+.order-attencion {
+  width: 70%;
+  display: flex;
+  gap: 11px;
+  align-items: start;
+  margin: 24px auto 0;
+}
+
+.order-attencion-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.order-attencion-desc h2 {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d978ac;
+}
+
+.order-attencion-desc p {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  align-items: start;
+}
+
+.order-attencion-desc p span {
+  color: #43ffd2;
+}
+
+.pay-method {
+  margin-top: 100px;
+}
+
+.pay-method h2 {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d978ac;
+}
+
+.pay-method-cards {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.pay-method-card {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #00000033;
+  width: 255px;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #00000033;
+  border-radius: 20px;
+}
+
+.order-cost {
+  margin-top: 100px;
+  width: 70%;
+  margin-left: 10%;
+}
+
+.order-cost h2 {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d978ac;
+  margin-bottom: 20px;
+}
+
+.order-cost ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.order-cost ul li {
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.order-cost ul li span {
+  color: #43ffd2;
+}
+
+.order-conditions {
+  margin-top: 100px;
+}
+
+.order-conditions h2 {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d978ac;
+  margin-bottom: 20px;
+}
+
+.order-conditions ul li {
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.order-conditions ul li span {
+  color: #43ffd2;
+}
+
+.order-additional {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #00000033;
+  border-radius: 20px;
+  padding: 30px 33px;
+  background-color: #00000033;
+  gap: 30px;
+}
+
+.order-additional h2 {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d978ac;
+  margin-bottom: 20px;
+}
+
+.order-add p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+}
+
+.order-add ul {
+  padding-left: 33px;
+}
+
+.order-add ul li {
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+}
+
+.order-add div {
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  margin-top: 20px;
+}
+
+.order-add div a {
+  font-weight: 400;
+  font-size: 24px;
+  color: #43ffd2;
+  text-decoration: none;
+}
+
+.order-refund p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+}
+
+.bg-img-1,
+.bg-img-2,
+.bg-img-3,
+.bg-img-4,
+.bg-img-5,
+.bg-img-6,
+.bg-img-7,
+.bg-img-8,
+.bg-img-9,
+.bg-img-10,
+.bg-img-11 {
+  position: absolute;
+}
+
+.bg-img-2,
+.bg-img-4,
+.bg-img-5,
+.bg-img-10,
+.bg-img-11 {
+  right: 0;
+}
+
+.bg-img-1,
+.bg-img-3,
+.bg-img-6,
+.bg-img-7,
+.bg-img-9 {
+  left: 0;
+}
+
+.bg-img-9,
+.bg-img-10,
+.bg-img-11 {
+  bottom: 0;
+}
+
+.bg-img-6,
+.bg-img-7,
+.bg-img-8 {
+  top: 30%;
+}

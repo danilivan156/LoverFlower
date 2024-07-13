@@ -1,0 +1,152 @@
+@media (max-width: 1160px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .logo a img,
+  .nav-links {
+    display: none;
+  }
+
+  .media {
+    display: block;
+  }
+
+  .footer-bouqet {
+    display: none;
+  }
+
+  /* .bg-img-1,
+  .bg-img-2,
+  .bg-img-3,
+  .bg-img-4,
+  .bg-img-5,
+  .bg-img-6,
+  .bg-img-7,
+  .bg-img-8,
+  .bg-img-9,
+  .bg-img-10,
+  .bg-img-11 {
+    width: 70%;
+  } */
+}
+
+@media (max-width: 1024px) {
+  .footer-block {
+    display: none;
+  }
+
+  .footer-media {
+    display: block;
+    width: 80%;
+  }
+
+  .about-flower h2 {
+    font-size: 40px;
+  }
+
+  .bg-img-1,
+  .bg-img-2,
+  .bg-img-3,
+  .bg-img-4,
+  .bg-img-5,
+  .bg-img-6,
+  .bg-img-7,
+  .bg-img-8 {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-block {
+    display: none;
+  }
+
+  .footer-media {
+    display: block;
+    width: 80%;
+  }
+
+  .title,
+  .garanty {
+    width: 100%;
+  }
+
+  .order-with h2 {
+    width: 100%;
+    margin-left: 0;
+    font-size: 50px;
+  }
+
+  .order-with ul {
+    width: 90%;
+  }
+
+  .about-flower div {
+    font-size: 16px;
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 700px) {
+  .header-media-social-media {
+    display: none;
+  }
+
+  .header-media-phone {
+    display: none;
+  }
+  .footer-media {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .about-block h1 {
+    width: 100%;
+    font-size: 70px;
+  }
+
+  .title,
+  .garanty {
+    margin-top: 70px;
+    font-size: 40px;
+  }
+
+  .title-desc {
+    width: 90%;
+    padding: 20px 10px;
+  }
+
+  .title-desc p {
+    font-size: 14px;
+  }
+
+  .garanty-desc {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .order-with h2 {
+    font-size: 30px;
+  }
+
+  .order-with ul li {
+    font-size: 14px;
+  }
+
+  .about-flower h2 {
+    font-size: 20px;
+  }
+
+  .about-flower {
+    margin-top: 80px;
+  }
+
+  .about-flower div {
+    font-size: 14px;
+    width: 90%;
+  }
+}

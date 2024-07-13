@@ -1,0 +1,94 @@
+.social-green,
+.social-purple {
+  position: absolute;
+}
+
+.social-green {
+  left: 0;
+}
+
+.social-purple {
+  right: 0;
+}
+
+.social-block {
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.social-block {
+  margin-top: 140px;
+  padding-bottom: 200px;
+  position: relative;
+  display: flex;
+  align-items: end;
+  gap: 50px;
+}
+
+.social-block-images {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.social-block-network {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.social-block-networks {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: end;
+}
+
+.social-media-block {
+  display: none;
+  margin-top: 50px;
+  z-index: 2;
+  position: relative;
+}
+
+.social-media-networks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social-block-media-network {
+  display: flex;
+  gap: 20px;
+}
+
+.social-media-block-imgs {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.social-media-block-imgs {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.social-media-block-imgs > .social-media-block-imgs img {
+  display: inline-block;
+}
+
+.social-block-images a {
+  transition: transform 0.3s ease;
+}
+.social-block-images a:hover {
+  transform: scale(1.1);
+}
+
+.social-media-block-imgs a {
+  transition: transform 0.3s ease;
+}
+.social-media-block-imgs a:hover {
+  transform: scale(1.1);
+}

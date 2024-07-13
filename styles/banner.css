@@ -1,0 +1,159 @@
+.banner-background {
+  background: linear-gradient(1deg, #040a0a, hsla(0, 0%, 100%, 0) 50%),
+    url(../img/banner/banner-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+  position: relative;
+}
+
+.banner-block {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.banner-block h1 {
+  color: #41917d;
+  font-size: 200px;
+  line-height: 140px;
+  font-family: "Cormorant", serif;
+  font-weight: 300;
+}
+
+.banner-desc {
+  color: #c1c5c4;
+  font-size: 20px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.banner-block a {
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 70px;
+  border-radius: 10px;
+  padding: 15px 50px;
+  background-color: #43ffd2;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banner-block a {
+  position: relative;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0);
+}
+
+.banner-block a::before,
+.banner-block a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.banner-block a::before {
+  background-color: #43ffd2;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.banner-block a::after {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+  z-index: -2;
+  border-radius: 10px;
+}
+
+.banner-block a:hover,
+.banner-block a:focus {
+  background-color: #7d2253;
+  transform: scale(1.1);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.banner-block a:hover::before,
+.banner-block a:focus::before {
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.banner-block a:active {
+  background-color: #7d2253;
+  transform: scale(0.9);
+  border-radius: 10px;
+  animation: resetColor 0.3s ease 1s forwards;
+}
+
+.banner-block a:active::after {
+  opacity: 1;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@keyframes resetColor {
+  0% {
+    background-color: #7d2253;
+  }
+  100% {
+    background-color: #43ffd2;
+  }
+}
+
+/* .banner-block a:hover {
+  border: #61193f 1px solid;
+  border-right-width: 4px;
+  border-bottom-width: 4px;
+  background-color: #7d2253;
+  color: #fff;
+} */
+
+/* .banner-block a:hover:not(:active) {
+  border: #61193f 1px solid;
+  border-right-width: 4px;
+  border-bottom-width: 4px;
+  color: #fff;
+  background-color: #7d2253;
+  animation: resetColor 3s ease; 
+}
+
+.banner-block a:active {
+  transition: none; 
+}
+
+@keyframes resetColor {
+  to {
+    border: 1px solid #41917d;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    background-color: #43ffd2; 
+  }
+} */
+
+.banner-signature {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.banner-items ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  align-items: center;
+  text-align-last: left;
+  margin-top: 80px;
+}
+
+.banner-items ul li dt {
+  color: #43ffd2;
+}
+
+.banner-items ul li dd {
+  color: #c1c5c4;
+  margin: 0;
+}
